@@ -23,5 +23,6 @@ protected:
 	std::unique_ptr<OWindow> m_display;
 
 	OVertexArrayObjectPtr m_triangleVAO;
+	OShaderProgramPtr m_shader;
 };
 
